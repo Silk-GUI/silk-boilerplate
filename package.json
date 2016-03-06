@@ -1,0 +1,13 @@
+{
+  "name": "silk-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "icon": "static/icon.png",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "silk": {
+    "url": "http://localhost:4000"
+  }
+}
