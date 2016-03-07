@@ -4,6 +4,9 @@
 var BrowserWindow = require('electron').BrowserWindow;
 var app = require('electron').app;
 
+// This package allows us to access Silk's api
+var silkApi = require('silk-api');
+
 var express = require('express');
 var expressApp = express();
 
@@ -17,6 +20,7 @@ app.on('ready', function () {
     // nodeIntegration is required to be set to false since Silk does not provide node api on the client.
     var window = new BrowserWindow({nodeIntegration: false});
 
+    // The window manager will open a window after you call loadUrl().
     window.loadUrl('http://localhost:' + port);
   });
 
