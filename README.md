@@ -1,3 +1,3 @@
 # Boilerplate to create apps for Silk
 
-This contains the minimum needed for a Silk app.
+This is a minimalist boilerplate to get started building an app for Silk.
